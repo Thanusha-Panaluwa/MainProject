@@ -1,0 +1,84 @@
+.container {
+  padding: 5px;
+  width: 600px;
+  margin-top: 25px;
+  width: 700px;
+}
+
+#drop {
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(122, 122, 194);
+  color: aliceblue;
+  margin: 0 auto;
+  width: 600px;
+  display: block;
+  font-size: 18px;
+}
+
+body {
+  background-color: rgb(207, 193, 206);
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+#places {
+  display: flex;
+  padding: 30px;
+  margin-left: 20px;
+  justify-content: space-around;
+  border-bottom: 1px dashed rgb(214, 209, 209);
+  margin-bottom: 10px;
+}
+
+#places:last-child {
+  border: none;
+}
+
+.dropBox {
+  margin: 0 auto;
+}
+
+.sp {
+  margin: 0 auto;
+}
+
+.box {
+  background-color: aliceblue;
+  width: 700px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.75px 3px grey;
+  opacity: 5px;
+  padding: 38px;
+}
+
+.time {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+.time small {
+  font-size: 16px;
+  vertical-align: middle;
+}
+h2 {
+  margin: 0;
+}
+
+.date {
+  opacity: 0.5px;
+  margin: 0;
+  color: grey;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: rgb(0, 0, 0, 0.7);
+}
